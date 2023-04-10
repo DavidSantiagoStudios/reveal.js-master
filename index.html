@@ -1,0 +1,68 @@
+<!doctype html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>reveal.js</title>
+	
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+	
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				color: #333;
+			}
+		</style>
+	</head>
+<body style="background-image: url('image1.jpg');">
+	<div class="reveal">
+		<div class="slides">
+			<section>
+      <h2>Archivos planos</h2>
+      <p class="animate__animated animate__bounceInRight">Los archivos planos son aquellos que almacenan datos sin formato y estructura definida.</p>
+      <p class="animate__animated animate__bounceInLeft">Se caracterizan por ser fáciles de leer y editar con cualquier editor de texto.</p>
+      <p class="animate__animated animate__bounceInRight">Algunos ejemplos de archivos planos son los archivos de texto (.txt), archivos CSV (.csv) y archivos de registro (.log).</p>
+      
+    </section>
+	<section>
+		<h2>Archivos XML</h2>
+				<p class="animate__animated animate__bounceInRight">Los archivos XML (Lenguaje de Marcado Extensible) son archivos de texto que contienen información estructurada.</p>
+				<p class="animate__animated animate__bounceInLeft">Se utilizan para almacenar y compartir datos de manera independiente del software o hardware utilizado.</p>
+				<p class="animate__animated animate__bounceInRight">Los archivos XML se caracterizan por utilizar etiquetas para definir la estructura y contenido de los datos.</p>
+		        <p class="animate__animated animate__bounceInRight">Ejemplos de archivos XML incluyen el formato de documentos Microsoft Office (.docx, .xlsx) y archivos de configuración de software.</p>
+	</section>
+			<section>
+				<h2>Archivos JSON</h2>
+				<p class="animate__animated animate__bounceInRight">Los archivos JSON (Notación de Objetos de JavaScript) son archivos de texto que almacenan datos estructurados en formato de objeto.</p>
+				<p class="animate__animated animate__bounceInLeft">Se utilizan comúnmente para enviar y recibir datos a través de aplicaciones web.</p>
+				<p class="animate__animated animate__bounceInRight">Los archivos JSON se caracterizan por utilizar llaves para definir la estructura y contenido de los datos.</p>
+		        <p class="animate__animated animate__bounceInRight">Ejemplos de archivos JSON incluyen respuestas de API web y archivos de configuración de software.</p>
+			</section>
+			<section>
+				<h2>Archivos Parquet</h2>
+				<p class="animate__animated animate__bounceInRight">Parquet es un formato de archivo de datos columnar y comprimido que se utiliza para almacenar grandes conjuntos de datos.</p>
+				<p class="animate__animated animate__bounceInLeft">Está diseñado para ser eficiente en términos de almacenamiento y procesamiento de datos.</p>
+				<p class="animate__animated animate__bounceInRight">Parquet es utilizado comúnmente en aplicaciones de big data y análisis de datos.</p>
+		        <p class="animate__animated animate__bounceInRight">Se caracteriza por tener un alto rendimiento en consultas y búsquedas en grandes conjuntos de datos, gracias a su estructura columnar y compresión.</p>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		
+		Reveal.initialize({
+			hash: true,
+
+		
+			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+		});
+	</script>
+</body>
+</html>
